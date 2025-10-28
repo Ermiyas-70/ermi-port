@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ermiyas Tomas Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ermiyas Tomas</h1>
+        
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            &#9776; </button>
+        
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content hero">
+        <img src="Image Oct 28, 2025, 11_18_36 PM.png" alt="Ermiyas Tomas Profile Picture" class="profile-photo">
+        <h2>Welcome To My Website</h2>
+        <p>Hi, I'm Ermiyas Tomas. I am a Computer Science student with a growing passion for web development.
+            I enjoy learning how websites are built and currently practice HTML and CSS to improve my front-end skills.
+            My goal is to become a full-stack developer who can design and build creative, responsive, and user-friendly
+            web applications.
+        </p>
+        <a href="portfolio.html" class="btn">View My Work</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Ermiyas Tomas. All rights reserved.</p>
+        <nav>
+            <ul class="footer-nav">
+                
+                <li><a href="https://github.com/Ermiyas-70/Ermiyas70.git" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector('.menu-toggle');
+        const navMenu = document.getElementById('main-nav');
+
+        menuButton.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

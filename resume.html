@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ermiyas Tomas - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ermiyas Tomas</h1>
+        
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            &#9776; </button>
+        
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content resume">
+        <h2>Resume</h2>
+        
+       
+        <div class="resume-grid">
+            
+            <div class="resume-section">
+                <h3>Training & Coursework</h3>
+                <p><strong>Web Developer Nanodegree (In Progress)</strong></p>
+                <p><strong>Udacity</strong></p>
+                <p class="dates">Currently Enrolled</p>
+                <ul>
+                    <li>Actively developing projects using **HTML5**, **CSS3**, and preparing to apply **JavaScript** fundamentals.</li>
+                    <li>Focusing on building responsive layouts that adhere to modern web standards.</li>
+                </ul>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Education</h3>
+                <p><strong>B.S. Computer Science (Expected)</strong></p>
+                <p>University of Gondar (UoG)</p>
+                <p class="dates">Expected Graduation: **August,2027**</p>
+            </div>
+
+            <div class="resume-section"> 
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C++</li>
+                    <li>JavaScript (Learning)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy;2025 Ermiyas Tomas. All rights reserved.</p>
+        <nav>
+            <ul class="footer-nav">
+                
+                <li><a href="https://github.com/Ermiyas-70/Ermiyas70.git" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector('.menu-toggle');
+        const navMenu = document.getElementById('main-nav');
+
+        menuButton.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

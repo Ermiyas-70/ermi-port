@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ermiyas Tomas Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ermiyas Tomas</h1>
+        
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            &#9776; </button>
+        
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content blog-page-content">
+        <h2>My Latest Posts</h2>
+        
+        <div class="blog-roll">
+            <article class="blog-post">
+                <h3>Getting Started with Responsive Web Design</h3>
+                <p>Learn the fundamental principles of creating websites that look great on any device, from mobile phones to large desktops. Media queries are your best friend!</p>
+                <a href="#" class="read-more">Read Full Post &rarr;</a>
+            </article>
+
+            <article class="blog-post">
+                <h3>The Power of CSS Variables (Custom Properties)</h3>
+                <p>Discover how CSS variables can drastically improve your workflow, making theme changes and consistency much easier across your entire project.</p>
+                <a href="#" class="read-more">Read Full Post &rarr;</a>
+            </article>
+
+            <article class="blog-post">
+                <h3>My Journey Learning HTML & CSS</h3>
+                <p>A look back at my first steps in web development, the challenges I faced, and the resources that helped me grow my front-end skills.</p>
+                <a href="#" class="read-more">Read Full Post &rarr;</a>
+            </article>
+
+            </div>
+    </section>
+    
+    <footer>
+        <p>&copy;2025 Ermiyas Tomas. All rights reserved.</p>
+        <nav>
+            <ul class="footer-nav">
+               
+                <li><a href="https://github.com/Ermiyas-70/Ermiyas70.git" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector('.menu-toggle');
+        const navMenu = document.getElementById('main-nav');
+
+        menuButton.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
