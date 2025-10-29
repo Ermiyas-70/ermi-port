@@ -11,17 +11,17 @@
  }
 
 
-  :root {
-    --primary-color: #111833;   
-    --secondary-color: #283a54;    
-    --accent-color: #ff7b25;       
-    --background-color: #f6f6f6;    
-    --font-color: #e0e0e0;         
-    --secondary-font-color: #444444; 
-    --border-radius: 8px;
-    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease-in-out;
-}
+ :root {
+     --primary-color: #111833;
+     --secondary-color: #283a54;
+     --accent-color: #ff7b25;
+     --background-color: #f6f6f6;
+     --font-color: #e0e0e0;
+     --secondary-font-color: #444444;
+     --border-radius: 8px;
+     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     --transition: all 0.3s ease-in-out;
+ }
 
  body {
      font-family: Verdana, sans-serif;
@@ -130,7 +130,7 @@
  .hero {
      height: 100vh;
      background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.7)),
-         url('person-coding-on-laptop-with-code-on-screen.jpg') no-repeat center center/cover;
+         url('photo/person-coding-on-laptop-with-code-on-screen.jpg') no-repeat center center/cover;
      color: var(--font-color);
      text-align: center;
      display: flex;
